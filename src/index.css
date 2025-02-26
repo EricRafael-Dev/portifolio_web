@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'AvenirRoman';
+    src: local('Avenir Roman'), local('Avenir-Roman'),
+        url('./fonts/Avenir-Roman.woff2') format('woff2'),
+        url('./fonts/Avenir-Roman.woff') format('woff'),
+        url('./fonts/Avenir-Roman.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'AvenirLight';
+    src: local('Avenir Light'), local('Avenir-Light'),
+        url('./fonts/Avenir-Light.woff2') format('woff2'),
+        url('./fonts/Avenir-Light.woff') format('woff'),
+        url('./fonts/Avenir-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+
