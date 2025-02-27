@@ -23,3 +23,20 @@
 body{
   overflow-x: hidden;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #170920;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #451883;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #430896;
+}
