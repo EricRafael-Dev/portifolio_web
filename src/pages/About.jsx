@@ -9,18 +9,15 @@ const About = () => {
         </div>
         <div className="text-2xl indent-5 flex flex-col gap-2 text-justify ">
           <p>
-            Desenvolvedor Fullstack com mais de 2 anos de experiência
-            na indústria.
+            Desenvolvedor Fullstack com mais de 2 anos de experiência na
+            indústria.
           </p>
           <p>
-            Crio sites, landing pages, SaaS, automações e envolventes que
-            equilibram as necessidades dos usuários e os objetivos de negócios.
+            Crio sites, landing pages, SaaS, automações que equilibram as
+            necessidades dos usuários e os objetivos de negócios.
           </p>
 
-          <p>
-            Transformar dados e código em soluções reais e impactantes é o que
-            me motiva.
-          </p>
+          <p>Transformar dados e código em soluções reais é o que me motiva.</p>
         </div>
       </div>
     </section>
