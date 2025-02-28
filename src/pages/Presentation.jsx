@@ -16,37 +16,37 @@ const Presentation = () => {
         <div className="flex gap-5 bx-sm flex-wrap justify-center">
           <div className="px-4 py-1 bg-gray-200/90 rounded-full text-gray-700 flex items-center gap-2">
             <i className="bx bxl-react text-blue-500"></i>
-            <label className="text-[20px]">React</label>
+            <label className="text-5">React</label>
           </div>
 
           <div className="px-4 py-1 bg-gray-200/90 rounded-full text-gray-700 flex items-center gap-2">
             <i className="bx bxl-nodejs text-green-700"></i>
-            <label className="text-[20px]">NodeJS</label>
+            <label className="text-5">NodeJS</label>
           </div>
 
           <div className="px-4 py-1 bg-gray-200/90 rounded-full text-gray-700 flex items-center gap-2">
             <i className="bx bxl-tailwind-css text-blue-500"></i>
-            <label className="text-[20px]">Tailwind CSS</label>
+            <label className="text-5">Tailwind CSS</label>
           </div>
 
           <div className="px-4 py-1 bg-gray-200/90 rounded-full text-gray-700 flex items-center gap-2">
             <i className="bx bxl-python text-gray-700"></i>
-            <label className="text-[20px]">Python</label>
+            <label className="text-5">Python</label>
           </div>
 
           <div className="px-4 py-1 bg-gray-200/90 rounded-full text-gray-700 flex items-center gap-2">
             <i className="bx bxl-mongodb text-green-800"></i>
-            <label className="text-[20px]">MongoDB</label>
+            <label className="text-5">MongoDB</label>
           </div>
 
           <div className="px-4 py-1 bg-gray-200/90 rounded-full text-gray-700 flex items-center gap-2">
             <i className="bx bxl-git text-orange-600"></i>
-            <label className="text-[20px]">Git</label>
+            <label className="text-5">Git</label>
           </div>
 
           <div className="px-4 py-1 bg-gray-200/90 rounded-full text-gray-700 flex items-center gap-2">
             <i className="bx bxl-github text-black"></i>
-            <label className="text-[20px]">GitHub</label>
+            <label className="text-5">GitHub</label>
           </div>
         </div>
       </div>

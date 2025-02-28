@@ -1,21 +1,20 @@
-import React from 'react'
-import ProjectCard from '../components/ProjectCard';
-import { ArrowLeft, ChevronRight } from 'lucide-react';
+import React from "react";
+import ProjectCard from "../components/ProjectCard";
+import { ArrowLeft, ChevronRight } from "lucide-react";
 
 const Projects = () => {
   return (
-    <section className="w-screen h-screen flex flex-col items-center justify-center gap-15 ">
-      <div className="relative w-full h-[90%] flex flex-col gap-10 justify-around">
-        <div className="font-[AvenirRoman] font-extrabold text-7xl uppercase text-white/10 p-10 ">
+    <section className="flex h-screen w-screen flex-col items-center justify-center gap-15">
+      <div className="relative flex h-[90%] w-full flex-col justify-around gap-10">
+        <div className="p-10 font-[AvenirRoman] text-7xl font-extrabold text-white/10 uppercase">
           Projetos
         </div>
-        <div className="relative flex h-full gap-10 p-10 overflow-x-auto scrollbar-hide">
+        <div className="scrollbar-hide relative flex h-full gap-10 overflow-x-auto p-10">
           <ProjectCard />
-          
         </div>
       </div>
     </section>
   );
-}
+};
 
-export default Projects
+export default Projects;
