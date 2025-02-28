@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className="flex h-screen w-screen flex-col items-center justify-center gap-15 p-10">
       <div className="relative flex h-[70%] w-full flex-col justify-around gap-10">
-        <div className="pointer-events-none text-end font-[AvenirRoman] text-[7vh] font-extrabold text-white/10 uppercase">
+        <div className="pointer-events-none text-end font-[AvenirRoman] text-[7vh] font-extrabold text-white/50 uppercase">
           Sobre mim
         </div>
         <div className="flex flex-col gap-2 text-justify indent-5 text-2xl">
