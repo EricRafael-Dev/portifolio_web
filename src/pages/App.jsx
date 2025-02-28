@@ -6,12 +6,12 @@ import Skills from "./Skills";
 
 const App = () => {
   return (
-    <div className="h-full w-dvw bg-[#11071f] font-[AvenirLight] text-white">
+    <main className="w-screen bg-[#11071f] font-[AvenirLight] text-white">
       <Presentation />
       <About />
       <Projects />
       <Skills />
-    </div>
+    </main>
   );
 };
 

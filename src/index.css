@@ -24,6 +24,10 @@ body{
   overflow-x: hidden;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 ::-webkit-scrollbar {
   width: 5px;
 }

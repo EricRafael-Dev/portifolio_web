@@ -64,7 +64,7 @@ const Skills = () => {
         </div>
         <div className="flex items-center gap-5">
           <div className="flex aspect-square w-10 items-center justify-center rounded-xl bg-[#27163f]">
-            <i class="bx bx-wrench text-orange-500"></i>
+            <i className="bx bx-wrench text-orange-500"></i>
           </div>
           <h2 className="text-3xl text-white/50">Ferramentas</h2>
         </div>

@@ -12,11 +12,11 @@ const ProjectCard = () => {
     >
       {/* Project Img */}
       <div className="relative overflow-hidden has-hover:rounded-t-3xl has-hover:[&_div]:flex has-hover:[&_img]:scale-110">
-        <img
+        {/* <img
           className="rounded-t-3xl object-cover transition-transform duration-200"
           src={project.image}
           alt=""
-        />
+        /> */}
         <div className="absolute top-0 hidden h-full w-full items-center justify-center rounded-t-3xl bg-gray-700/50">
           <a
             href={project.links.deploy}
