@@ -2,12 +2,12 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="w-screen h-screen flex flex-col items-center justify-center gap-15 p-10 ">
-      <div className="relative w-full h-[70%] flex flex-col gap-10 justify-around">
-        <div className="font-[AvenirRoman] font-extrabold text-end text-7xl uppercase text-white/10 pointer-events-none">
+    <section className="flex h-screen w-screen flex-col items-center justify-center gap-15 p-10">
+      <div className="relative flex h-[70%] w-full flex-col justify-around gap-10">
+        <div className="pointer-events-none text-end font-[AvenirRoman] text-[7vh] font-extrabold text-white/10 uppercase">
           Sobre mim
         </div>
-        <div className="text-2xl indent-5 flex flex-col gap-2 text-justify ">
+        <div className="flex flex-col gap-2 text-justify indent-5 text-2xl">
           <p>
             Desenvolvedor Fullstack com mais de 2 anos de experiência na
             indústria.

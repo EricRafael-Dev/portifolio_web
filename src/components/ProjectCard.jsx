@@ -7,16 +7,16 @@ const ProjectCard = () => {
 
   return projects.map((project, index) => (
     <div
-      key={project.title}
+      key={index}
       className="flex h-full min-w-[90%] flex-col items-center justify-between rounded-2xl bg-[#27163f] shadow-2xl inset-shadow-sm shadow-[#27163fa4] inset-shadow-[#451883] transition-transform duration-300 hover:scale-105"
     >
       {/* Project Img */}
       <div className="relative overflow-hidden has-hover:rounded-t-3xl has-hover:[&_div]:flex has-hover:[&_img]:scale-110">
-        {/* <img
+        <img
           className="rounded-t-3xl object-cover transition-transform duration-200"
           src={project.image}
           alt=""
-        /> */}
+        />
         <div className="absolute top-0 hidden h-full w-full items-center justify-center rounded-t-3xl bg-gray-700/50">
           <a
             href={project.links.deploy}

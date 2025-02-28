@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section className="flex h-screen w-screen flex-col items-center justify-center gap-15">
       <div className="relative flex h-[90%] w-full flex-col justify-around gap-10">
-        <div className="p-10 font-[AvenirRoman] text-7xl font-extrabold text-white/10 uppercase">
+        <div className="p-10 font-[AvenirRoman] text-[7vh] font-extrabold text-white/10 uppercase">
           Projetos
         </div>
         <div className="scrollbar-hide relative flex h-full gap-10 overflow-x-auto p-10">
