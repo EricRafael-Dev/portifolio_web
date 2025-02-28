@@ -40,3 +40,6 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   background: #430896;
 }
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

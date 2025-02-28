@@ -1,0 +1,24 @@
+{
+  "projects": [
+    {
+      "title": "Página de vendas",
+      "category": "Landing-Page",
+      "image": "/gym_landing_page.png",
+      "description": "Essa landing page foi projetada para promover um kit gratuito que ajuda academias a enfrentar a sazonalidade e manter o faturamento mesmo em períodos de baixa demanda, como inverno e férias.",
+      "links": {
+        "github": "https://github.com/EricRafael-Dev/landing-page_gym-pt-BR",
+        "deploy": "https://gymlp.vercel.app"
+      }
+    },
+    {
+      "title": "Calculadora de Hipoteca",
+      "category": "Web App & Interatividade",
+      "image": "/mortgate_Calculator.png",
+      "description": "Uma aplicação interativa para calcular pagamentos de hipoteca com base em juros, tempo e valor do financiamento.",
+      "links": {
+        "github": "https://github.com/EricRafael-Dev/Mortgate-Calculator_WEB",
+        "deploy": "https://mortgate-calculator-web.vercel.app"
+      }
+    }
+  ]
+}
