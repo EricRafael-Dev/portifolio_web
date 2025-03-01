@@ -2,7 +2,7 @@ import React from "react";
 
 const Experiences = () => {
   return (
-    <section className="flex h-screen w-screen flex-col items-center justify-center gap-15 p-10">
+    <section id="experiences" className="flex h-screen w-screen flex-col items-center justify-center gap-15 p-10">
       <div className="relative grid max-h-[70%] w-full grid-rows-[auto_1fr] flex-col justify-around gap-[15vh]">
         <div className="relative font-[AvenirRoman] text-[5vh] font-extrabold text-white/50 uppercase">
           <div className="absolute top-[9vh] right-0 flex aspect-square h-[9vh] items-center justify-center rounded-2xl bg-[#27163f] text-center shadow-[-5px_5px_30px_0px] shadow-orange-500/40">

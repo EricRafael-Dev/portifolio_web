@@ -3,11 +3,11 @@ import projectsData from "../assets/projects.json";
 
 const ProjectCard = () => {
   const projects = projectsData.projects;
-  const images = import.meta.glob("/src/assets/*.png", { eager: true });
 
   return projects.map((project, index) => (
     <div
       key={index}
+      id="projectcard"
       className="flex h-full min-w-[90%] flex-col items-center justify-between rounded-2xl bg-[#27163f] shadow-2xl inset-shadow-sm shadow-[#27163fa4] inset-shadow-[#451883] transition-transform duration-300 hover:scale-105"
     >
       {/* Project Img */}

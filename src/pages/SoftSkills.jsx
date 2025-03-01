@@ -11,7 +11,7 @@ const SoftSkills = () => {
   ];
 
   return (
-    <section className="flex h-screen w-screen items-center gap-10 p-7">
+    <section id="softskills" className="flex h-screen w-screen items-center gap-10 p-7">
       <div className="relative flex h-[70%] w-full flex-col justify-between gap-10">
         <div className="flex flex-col items-center text-7xl">
           <div className="text-center font-[AvenirRoman] text-[6vh] font-extrabold text-white/50 uppercase">
