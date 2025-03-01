@@ -39,7 +39,6 @@ const About = () => {
       { y: 0, opacity: 1,
         scrollTrigger: {
           trigger: "#aboutme",
-          markers: true,
           scrub: true,
           start: "top center",
           end: "40% center"
