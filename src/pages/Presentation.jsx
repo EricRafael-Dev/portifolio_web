@@ -6,8 +6,8 @@ gsap.registerPlugin(useGSAP);
 const Presentation = () => {
 
   useGSAP(() => {
-    gsap.from("#me", { x: "-100vh", duration: 1, ease: "elastic.out(1,1)" });
-    let tl = gsap.timeline();
+    gsap.from("#me", { x: "-100vh", duration: 1, delay:1, ease: "elastic.out(1,1)" });
+    let tl = gsap.timeline({delay:1.2});
     tl.from("#name", { y: 50, opacity: 0, duration: 1, ease: "power1.out" })
       .from(
         "#name2",
@@ -18,9 +18,10 @@ const Presentation = () => {
         "#feature",
         {
           scale: 2,
-          rotate: 520,
+          rotate: 480,
           opacity: 0,
           duration: 1,
+          delay: .5,
           ease: "elastic.out(1,1)",
           stagger: 0.2,
         },

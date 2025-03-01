@@ -20,23 +20,23 @@ const About = () => {
       "#abouttitle",
       {
         x: 500,
-        opacity: 0,
-        duration: 1,
-        ease: "power1.out",
+        opacity: 0
       },
       {
         x: 0,
         opacity: 1,
+        duration: 1,
+        ease: "power1.out",
       },
     ).fromTo(
       "#aboutdescription",
       {
         y: 100,
-        opacity: 0,
-        duration: 3,
-        ease: "power1.out"
+        opacity: 0
       },
       { y: 0, opacity: 1,
+        duration: 3,
+        ease: "power1.out",
         scrollTrigger: {
           trigger: "#aboutme",
           scrub: true,
