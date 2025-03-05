@@ -15,11 +15,11 @@ const Footer = () => {
         <label className="text-1xl animate-pulse">Deslize para baixo</label>
         <ChevronsDown size={32} />
       </div>
-      <footer className="grid-rows-auto relative z-1 grid gap-6 border-t border-orange-500 bg-[#11071f] p-15 font-[AvenirLight] text-gray-300 shadow-[0_50px_100px_1px] shadow-orange-500 [&_h1]:font-[AvenirRoman] [&_h1]:text-[7vw] [&_h1]:font-semibold [&_h1]:text-white">
+      <footer className="grid-rows-auto relative z-1 grid gap-6 border-t border-orange-500 bg-[#11071f] p-15 font-[AvenirLight] text-gray-300 shadow-[0_50px_100px_1px] shadow-orange-500 [&_h1]:font-[AvenirRoman] [&_h1]:text-[7vh] [&_h1]:font-semibold [&_h1]:text-white">
         {/* Me */}
         <div className="flex flex-col gap-5">
           <h1 className="">Eric Rafael P. de Andrade</h1>
-          <p className="text-[5vw]">
+          <p className="text-[5vh]">
             Desenvolvedor FullStack motivado a transformar ideias em
             experiências completas.
           </p>
@@ -27,7 +27,7 @@ const Footer = () => {
         {/* Links */}
         <div className="flex flex-col gap-5">
           <h1>Contatos</h1>
-          <ul className="grid grid-cols-2 gap-2 text-[5vw] [&_a]:flex [&_a]:items-center [&_a]:gap-2 [&_a]:hover:text-orange-500 [&_li]:flex [&_li]:items-center">
+          <ul className="grid grid-cols-2 gap-2 text-[5vh] [&_a]:flex [&_a]:items-center [&_a]:gap-2 [&_a]:hover:text-orange-500 [&_li]:flex [&_li]:items-center">
             <li>
               <a href="https://github.com/EricRafael-Dev" target="_blank">
                 <i className="bx bxl-github"></i>GitHub

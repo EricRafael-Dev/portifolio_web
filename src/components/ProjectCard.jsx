@@ -51,14 +51,14 @@ const ProjectCard = () => {
         <div className="flex h-auto flex-col gap-5 overflow-auto px-8 py-5">
           {/* Title and Category */}
           <div className="flex flex-col items-center justify-between text-center">
-            <h1 className="font-[AvenirRoman] text-[6vw] font-semibold">
+            <h1 className="font-[AvenirRoman] text-[6vh] font-semibold">
               {project.title}
             </h1>
-            <label className="text-[5vw] text-orange-500">
+            <label className="text-[5vh] text-orange-500">
               {project.category}
             </label>
           </div>
-          <p className="h-auto overflow-auto text-[5vw]">
+          <p className="h-auto overflow-auto text-[5vh]">
             {project.description}
           </p>
         </div>
@@ -71,12 +71,12 @@ const ProjectCard = () => {
             target="_blank"
             className="flex aspect-square max-w-[25%] cursor-pointer items-center justify-center rounded-2xl border-2 border-orange-600 text-orange-600 transition-colors duration-200 hover:bg-orange-600 hover:text-white"
           >
-            <i className="bx bxl-github text-[10vw]"></i>
+            <i className="bx bxl-github text-[15vh]"></i>
           </a>
           <a
             href={project.links.deploy}
             target="_blank"
-            className="flex w-[70%] cursor-pointer items-center justify-center rounded-2xl bg-orange-600 text-[6vw] font-bold transition-colors duration-200 hover:bg-orange-700"
+            className="flex w-[70%] cursor-pointer items-center justify-center rounded-2xl bg-orange-600 text-[10vh] font-bold transition-colors duration-200 hover:bg-orange-700"
           >
             Ver projeto
           </a>

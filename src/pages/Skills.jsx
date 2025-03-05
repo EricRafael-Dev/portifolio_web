@@ -109,7 +109,7 @@ const Skills = () => {
         </div>
 
         <div className="my-10 flex items-center gap-5 text-[3vh]">
-          <div className="flex aspect-square w-[10vw] items-center justify-center rounded-xl bg-[#27163f]">
+          <div className="flex aspect-square w-[10vh] items-center justify-center rounded-xl bg-[#27163f]">
             <i className="bx bx-wrench text-orange-500"></i>
           </div>
           <h2 className="text-white/50">Ferramentas</h2>

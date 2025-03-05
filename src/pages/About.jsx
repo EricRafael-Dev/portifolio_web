@@ -60,7 +60,7 @@ const About = () => {
         </div>
         <div
           id="aboutdescription"
-          className="flex flex-col gap-15 text-justify indent-10 text-[6vw]"
+          className="flex flex-col gap-15 text-justify indent-10 text-[4vh]"
         >
           <p>
             Desenvolvedor Fullstack com mais de 2 anos de experiência na
