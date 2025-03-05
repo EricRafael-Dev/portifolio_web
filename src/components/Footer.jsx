@@ -1,18 +1,25 @@
 import { ChevronsDown } from "lucide-react";
 import React from "react";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+
+gsap.registerPlugin(useGSAP);
 
 const Footer = () => {
+  useGSAP(() => {
+    gsap.from("footer", { y: 500, duration: 1, delay: 1, ease: "power1.out" });
+  });
   return (
     <>
       <div className="fixed right-5 bottom-5 flex animate-bounce items-center gap-5 text-white/20">
         <label className="text-1xl animate-pulse">Deslize para baixo</label>
         <ChevronsDown size={32} />
       </div>
-      <footer className="grid-rows-auto relative z-1 grid gap-6 border-t border-orange-500 bg-[#11071f] p-15 font-[AvenirLight] text-gray-300 shadow-[0_50px_100px_1px] shadow-orange-500 [&_h1]:font-[AvenirRoman] [&_h1]:text-2xl [&_h1]:font-semibold [&_h1]:text-white">
+      <footer className="grid-rows-auto relative z-1 grid gap-6 border-t border-orange-500 bg-[#11071f] p-15 font-[AvenirLight] text-gray-300 shadow-[0_50px_100px_1px] shadow-orange-500 [&_h1]:font-[AvenirRoman] [&_h1]:text-[7vw] [&_h1]:font-semibold [&_h1]:text-white">
         {/* Me */}
         <div className="flex flex-col gap-5">
-          <h1 className="">Eric Rafael P. Andrade</h1>
-          <p className="text-xl">
+          <h1 className="">Eric Rafael P. de Andrade</h1>
+          <p className="text-[5vw]">
             Desenvolvedor FullStack motivado a transformar ideias em
             experiências completas.
           </p>
@@ -20,15 +27,15 @@ const Footer = () => {
         {/* Links */}
         <div className="flex flex-col gap-5">
           <h1>Contatos</h1>
-          <ul className="grid grid-cols-2 gap-2 text-xl [&_a]:flex [&_a]:items-center [&_a]:gap-2 [&_a]:hover:text-orange-500 [&_li]:flex [&_li]:items-center">
+          <ul className="grid grid-cols-2 gap-2 text-[5vw] [&_a]:flex [&_a]:items-center [&_a]:gap-2 [&_a]:hover:text-orange-500 [&_li]:flex [&_li]:items-center">
             <li>
               <a href="https://github.com/EricRafael-Dev" target="_blank">
-                <i className="bx bxl-github bx-fw"></i>GitHub
+                <i className="bx bxl-github"></i>GitHub
               </a>
             </li>
             <li>
               <a href="https://www.linkedin.com/in/eric-rafael/">
-                <i className="bx bxl-linkedin bx-fw"></i>LinkedIn
+                <i className="bx bxl-linkedin"></i>LinkedIn
               </a>
             </li>
             <li>
@@ -36,7 +43,7 @@ const Footer = () => {
                 href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=rafaelpsec@gmail.com"
                 target="_blank"
               >
-                <i className="bx bxl-gmail bx-fw"></i>Gmail
+                <i className="bx bxl-gmail"></i>Gmail
               </a>
             </li>
           </ul>
@@ -44,7 +51,7 @@ const Footer = () => {
         {/* Contact */}
         <div className="flex flex-col gap-5">
           <h1>Links</h1>
-          <ul className="grid grid-cols-2 gap-2 text-xl [&_a]:flex [&_a]:items-center [&_a]:gap-2 [&_a]:hover:text-orange-500 [&_li]:flex [&_li]:items-center">
+          <ul className="grid grid-cols-2 gap-2 text-[5vw] [&_a]:flex [&_a]:items-center [&_a]:gap-2 [&_a]:hover:text-orange-500 [&_li]:flex [&_li]:items-center">
             <li>
               <a href="#">Início</a>
             </li>

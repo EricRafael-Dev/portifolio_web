@@ -1,10 +1,8 @@
 import React from "react";
 import gsap from "gsap";
-import MotionPathPlugin from "gsap/MotionPathPlugin";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(MotionPathPlugin);
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
 
@@ -47,7 +45,7 @@ const Skills = () => {
           y: 100,
           opacity: 0,
           duration: 1,
-          delay: 2,
+          delay: 0,
           ease: "elastic.out(1,1)",
           stagger: 2,
         },
@@ -61,7 +59,7 @@ const Skills = () => {
           y: 100,
           opacity: 0,
           duration: 1,
-          delay: 3,
+          delay: 1,
           ease: "elastic.out(1,1)",
           stagger: 2,
         },
@@ -83,56 +81,56 @@ const Skills = () => {
         </div>
 
         {/* Content */}
-        <div className="relative z-1 grid h-full grid-cols-2 gap-5 [&_a]:flex [&_a]:h-[6dvh] [&_a]:w-full [&_a]:items-center [&_a]:justify-evenly [&_a]:rounded-xl [&_a]:bg-[#27163f] [&_a]:transition-colors [&_a]:duration-200 [&_a]:hover:bg-orange-500 [&_a]:hover:text-[#27163f] [&_a]:hover:[&_i]:text-[#27163f] [&_label]:cursor-pointer [&_label]:text-xl">
+        <div className="[&_i]:text-[4vh] relative z-1 grid h-full grid-cols-2 gap-5 text-[2.5vh]  [&_a]:flex [&_a]:h-[6dvh] [&_a]:w-full [&_a]:items-center [&_a]:justify-evenly [&_a]:rounded-xl [&_a]:bg-[#27163f] [&_a]:transition-colors [&_a]:duration-200 [&_a]:hover:bg-orange-500 [&_a]:hover:text-[#27163f] [&_a]:hover:[&_i]:text-[#27163f] [&_label]:cursor-pointer">
           <a id="skill" href="https://react.dev/" target="_blank">
-            <i className="bx bxl-react text-2xl text-blue-500"></i>
+            <i className="bx bxl-react text-blue-500"></i>
             <label>React</label>
           </a>
           <a id="skill2" href="https://nodejs.org/" target="_blank">
-            <i className="bx bxl-nodejs text-2xl text-green-700"></i>
+            <i className="bx bxl-nodejs text-green-700"></i>
             <label>NodeJS</label>
           </a>
           <a id="skill" href="https://vitejs.dev/" target="_blank">
-            <img src="./vite.svg" className="h-6"></img>
+            <img src="./vite.svg" className="h-[4vh]"></img>
             <label>Vite</label>
           </a>
           <a id="skill2" href="https://tailwindcss.com/" target="_blank">
-            <i className="bx bxl-tailwind-css text-2xl text-blue-500"></i>
+            <i className="bx bxl-tailwind-css text-blue-500"></i>
             <label>Tailwind CSS</label>
           </a>
           <a id="skill" href="https://www.mongodb.com/" target="_blank">
-            <i className="bx bxl-mongodb text-2xl text-green-800"></i>
+            <i className="bx bxl-mongodb text-green-800"></i>
             <label>MongoDB</label>
           </a>
           <a id="skill2" href="https://www.python.org/" target="_blank">
-            <i className="bx bxl-python text-2xl text-gray-700"></i>
+            <i className="bx bxl-python text-gray-700"></i>
             <label>Python</label>
           </a>
         </div>
 
-        <div className="my-10 flex items-center gap-5">
-          <div className="flex aspect-square w-10 items-center justify-center rounded-xl bg-[#27163f]">
+        <div className="my-10 flex items-center gap-5 text-[3vh]">
+          <div className="flex aspect-square w-[10vw] items-center justify-center rounded-xl bg-[#27163f]">
             <i className="bx bx-wrench text-orange-500"></i>
           </div>
-          <h2 className="text-3xl text-white/50">Ferramentas</h2>
+          <h2 className="text-white/50">Ferramentas</h2>
         </div>
 
-        <div className="grid h-[30dvh] grid-cols-2 gap-5 [&_a]:flex [&_a]:h-[6dvh] [&_a]:w-full [&_a]:items-center [&_a]:justify-evenly [&_a]:rounded-xl [&_a]:bg-[#27163f] [&_a]:transition-colors [&_a]:duration-200 [&_a]:hover:bg-orange-500 [&_a]:hover:text-[#27163f] [&_a]:hover:[&_i]:text-[#27163f] [&_label]:cursor-pointer [&_label]:text-xl">
+        <div className="grid h-[30dvh] grid-cols-2 gap-5 text-[2.5vh] [&_a]:flex [&_a]:h-[6dvh] [&_a]:w-full [&_a]:items-center [&_a]:justify-evenly [&_a]:rounded-xl [&_a]:bg-[#27163f] [&_a]:transition-colors [&_a]:duration-200 [&_a]:hover:bg-orange-500 [&_a]:hover:text-[#27163f] [&_a]:hover:[&_i]:text-[#27163f] [&_label]:cursor-pointer">
           <a id="tools" href="https://github.com/" target="_blank">
-            <i className="bx bxl-github text-2xl text-blue-500"></i>
+            <i className="bx bxl-github text-blue-500"></i>
             <label>GitHub</label>
           </a>
           <a id="tools2" href="https://git-scm.com/" target="_blank">
-            <i className="bx bxl-git text-2xl text-green-700"></i>
+            <i className="bx bxl-git text-green-700"></i>
             <label>Git</label>
           </a>
 
           <a id="tools" href="https://www.figma.com/" target="_blank">
-            <i className="bx bxl-figma text-2xl text-blue-500"></i>
+            <i className="bx bxl-figma text-blue-500"></i>
             <label>Figma</label>
           </a>
           <a id="tools2" href="https://vercel.com/" target="_blank">
-            <i className="bx bx-send text-2xl text-green-800"></i>
+            <i className="bx bx-send text-green-800"></i>
             <label>Vercel</label>
           </a>
         </div>

@@ -1,12 +1,19 @@
 import React from "react";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+
+gsap.registerPlugin(useGSAP);
 
 const Header = () => {
+  useGSAP(()=>{
+    gsap.from("header", {y:-200, duration:1, delay:1, ease:"power1.out"})
+  })
   return (
-    <header className="font-[AvenirRoman] w-dvw h-[10dvh] bg-[#1A0B2E] flex justify-between items-center p-10 text-white absolute top-0">
-      <h1 className="text-4xl font-semibold">ER</h1>
-      <div className="flex items-center [&_button]:w-10 [&_button]:text-2xl gap-1">
+    <header className="font-[AvenirRoman] w-dvw h-[10dvh] bg-[#1A0B2E] flex justify-between items-center p-10 text-white absolute top-0 z-1">
+      <h1 className="text-[10vw] font-semibold">ER</h1>
+      <div className="flex items-center justify-center [&_button]:text-[10vw] gap-5">
         <button>pt</button>
-        <div className="h-7 w-0.5 bg-white rounded-4xl"></div>
+        <div className="h-[10vw] w-[0.5vw] bg-white rounded-4xl"></div>
         <button>en</button>
       </div>
     </header>

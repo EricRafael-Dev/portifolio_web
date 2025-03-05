@@ -28,11 +28,8 @@ const ProjectCard = () => {
     );
   }, []); 
   return projects.map((project, index) => (
-    <div
-        key={index} className="projectcard h-full min-w-[90%]">
-      <div
-        className="flex h-full min-w-full flex-col items-center justify-between rounded-2xl bg-[#27163f] shadow-2xl inset-shadow-sm shadow-[#27163fa4] inset-shadow-[#451883] transition-transform duration-300 hover:scale-105"
-      >
+    <div key={index} className="projectcard h-full min-w-[90%]">
+      <div className="flex h-full min-w-full flex-col items-center justify-between rounded-2xl bg-[#27163f] shadow-2xl inset-shadow-sm shadow-[#27163fa4] inset-shadow-[#451883] transition-transform duration-300 hover:scale-105">
         {/* Project Img */}
         <div className="relative overflow-hidden has-hover:rounded-t-3xl has-hover:[&_div]:flex has-hover:[&_img]:scale-110">
           <img
@@ -54,14 +51,14 @@ const ProjectCard = () => {
         <div className="flex h-auto flex-col gap-5 overflow-auto px-8 py-5">
           {/* Title and Category */}
           <div className="flex flex-col items-center justify-between text-center">
-            <h1 className="font-[AvenirRoman] text-3xl font-semibold">
+            <h1 className="font-[AvenirRoman] text-[6vw] font-semibold">
               {project.title}
             </h1>
-            <label className="text-2xl text-orange-500">
+            <label className="text-[5vw] text-orange-500">
               {project.category}
             </label>
           </div>
-          <p className="h-auto overflow-auto text-[24px]">
+          <p className="h-auto overflow-auto text-[5vw]">
             {project.description}
           </p>
         </div>
@@ -74,12 +71,12 @@ const ProjectCard = () => {
             target="_blank"
             className="flex aspect-square max-w-[25%] cursor-pointer items-center justify-center rounded-2xl border-2 border-orange-600 text-orange-600 transition-colors duration-200 hover:bg-orange-600 hover:text-white"
           >
-            <i className="bx bxl-github bx-lg"></i>
+            <i className="bx bxl-github text-[10vw]"></i>
           </a>
           <a
             href={project.links.deploy}
             target="_blank"
-            className="flex w-[70%] cursor-pointer items-center justify-center rounded-2xl bg-orange-600 text-2xl font-bold transition-colors duration-200 hover:bg-orange-700"
+            className="flex w-[70%] cursor-pointer items-center justify-center rounded-2xl bg-orange-600 text-[6vw] font-bold transition-colors duration-200 hover:bg-orange-700"
           >
             Ver projeto
           </a>

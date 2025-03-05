@@ -32,7 +32,7 @@ const Presentation = () => {
   return (
     <section
       id="presentation"
-      className="mt-[15dvh] flex h-screen w-screen flex-col items-center justify-center gap-1 px-8"
+      className="mt-[20dvh] flex h-screen w-screen flex-col items-center justify-center gap-1 px-8"
     >
       <div
         id="me"
@@ -42,70 +42,70 @@ const Presentation = () => {
         <div className="w-[90%] rounded-full border border-gray-200/50"></div>
       </div>
       <div>
-        <h1 id="name" className="font-[AvenirRoman] text-5xl font-bold">
+        <h1 id="name" className="font-[AvenirRoman] text-[10vw] font-bold">
           Eric Rafael
         </h1>
       </div>
       <div className="flex flex-col items-center gap-6">
-        <h2 id="name2" className="text-3xl">
+        <h2 id="name2" className="text-[7vw]">
           Full Stack Developer
         </h2>
 
         <div className="bx-sm flex flex-wrap justify-center gap-5">
           <div
             id="feature"
-            className="flex items-center gap-2 rounded-full bg-gray-200/90 px-4 py-1 text-gray-700"
+            className="flex items-center gap-2 rounded-full bg-gray-200/90 px-4 py-1 text-[5vw] text-gray-700"
           >
             <i className="bx bxl-react text-blue-500"></i>
-            <label className="text-5">React</label>
+            <label className="">React</label>
           </div>
 
           <div
             id="feature"
-            className="flex items-center gap-2 rounded-full bg-gray-200/90 px-4 py-1 text-gray-700"
+            className="flex items-center gap-2 rounded-full bg-gray-200/90 px-4 py-1 text-[5vw] text-gray-700"
           >
             <i className="bx bxl-nodejs text-green-700"></i>
-            <label className="text-5">NodeJS</label>
+            <label className="">NodeJS</label>
           </div>
 
           <div
             id="feature"
-            className="flex items-center gap-2 rounded-full bg-gray-200/90 px-4 py-1 text-gray-700"
+            className="flex items-center gap-2 rounded-full bg-gray-200/90 px-4 py-1 text-[5vw] text-gray-700"
           >
             <i className="bx bxl-tailwind-css text-blue-500"></i>
-            <label className="text-5">Tailwind CSS</label>
+            <label className="">Tailwind CSS</label>
           </div>
 
           <div
             id="feature"
-            className="flex items-center gap-2 rounded-full bg-gray-200/90 px-4 py-1 text-gray-700"
+            className="flex items-center gap-2 rounded-full bg-gray-200/90 px-4 py-1 text-[5vw] text-gray-700"
           >
             <i className="bx bxl-python text-gray-700"></i>
-            <label className="text-5">Python</label>
+            <label className="">Python</label>
           </div>
 
           <div
             id="feature"
-            className="flex items-center gap-2 rounded-full bg-gray-200/90 px-4 py-1 text-gray-700"
+            className="flex items-center gap-2 rounded-full bg-gray-200/90 px-4 py-1 text-[5vw] text-gray-700"
           >
             <i className="bx bxl-mongodb text-green-800"></i>
-            <label className="text-5">MongoDB</label>
+            <label className="">MongoDB</label>
           </div>
 
           <div
             id="feature"
-            className="flex items-center gap-2 rounded-full bg-gray-200/90 px-4 py-1 text-gray-700"
+            className="flex items-center gap-2 rounded-full bg-gray-200/90 px-4 py-1 text-[5vw] text-gray-700"
           >
             <i className="bx bxl-git text-orange-600"></i>
-            <label className="text-5">Git</label>
+            <label className="">Git</label>
           </div>
 
           <div
             id="feature"
-            className="flex items-center gap-2 rounded-full bg-gray-200/90 px-4 py-1 text-gray-700"
+            className="flex items-center gap-2 rounded-full bg-gray-200/90 px-4 py-1 text-[5vw] text-gray-700"
           >
             <i className="bx bxl-github text-black"></i>
-            <label className="text-5">GitHub</label>
+            <label className="">GitHub</label>
           </div>
         </div>
       </div>
