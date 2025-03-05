@@ -12,13 +12,13 @@ const ProjectCard = () => {
   useGSAP(() => {
     gsap.fromTo(
       ".projectcard",
-      { y: "100vw", opacity: 0 },
+      { y: "10vh", opacity: 0 },
       {
         y: 0,
         opacity: 1,
         delay: 1,
-        duration: 2.5,
-        stagger: 0.8,
+        duration: 1,
+        stagger: 0.5,
         ease: "elastic.out(1,1)",
         scrollTrigger: {
           trigger: "#projects",
@@ -26,7 +26,7 @@ const ProjectCard = () => {
         },
       },
     );
-  }, []);
+  }, []); 
   return projects.map((project, index) => (
     <div
         key={index} className="projectcard h-full min-w-[90%]">
