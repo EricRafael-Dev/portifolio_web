@@ -51,7 +51,7 @@ const About = () => {
       id="aboutme"
       className="flex h-screen w-screen flex-col items-center justify-center gap-15 p-10"
     >
-      <div className="relative flex h-[70%] w-full flex-col justify-around gap-10">
+      <div className="relative flex h-full w-full flex-col justify-evenly">
         <div
           id="abouttitle"
           className="pointer-events-none text-end font-[AvenirRoman] text-[7vh] font-extrabold text-white/50 uppercase"
@@ -60,7 +60,7 @@ const About = () => {
         </div>
         <div
           id="aboutdescription"
-          className="flex flex-col gap-15 text-justify indent-10 text-[4vh]"
+          className="flex flex-col gap-5 text-justify indent-10 text-[3vh]"
         >
           <p>
             Desenvolvedor Fullstack com mais de 2 anos de experiência na
