@@ -29,19 +29,19 @@ const ProjectCard = () => {
   }, []); 
   return projects.map((project, index) => (
     <div key={index} className="projectcard h-full min-w-[90%]">
-      <div className="flex h-full min-w-full flex-col items-center justify-between rounded-2xl bg-[#27163f] shadow-2xl inset-shadow-sm shadow-[#27163fa4] inset-shadow-[#451883] transition-transform duration-300 hover:scale-105">
+      <div className="flex h-full min-w-full flex-col items-center justify-between rounded-2xl border-2 border-[#FF6900] shadow-lg shadow-[#27163fa4] transition-transform duration-300 hover:scale-105 dark:bg-[#27163f]">
         {/* Project Img */}
-        <div className="relative overflow-hidden has-hover:rounded-t-3xl has-hover:[&_div]:flex has-hover:[&_img]:scale-110">
+        <div className="relative overflow-hidden has-hover:rounded-t-2xl has-hover:[&_div]:flex has-hover:[&_img]:scale-110">
           <img
-            className="rounded-t-3xl object-cover transition-transform duration-200"
+            className="rounded-t-2xl object-cover transition-transform duration-200"
             src={project.image}
             alt=""
           />
-          <div className="absolute top-0 hidden h-full w-full items-center justify-center rounded-t-3xl bg-gray-700/50">
+          <div className="absolute top-0 hidden h-full w-full items-center justify-center rounded-t-2xl bg-gray-700/50">
             <a
               href={project.links.deploy}
               target="_blank"
-              className="flex h-[20%] w-[40%] cursor-pointer items-center justify-center rounded-xl border-3 border-white text-3xl font-bold transition-colors duration-200 hover:bg-white hover:text-gray-700/50"
+              className="flex h-[20%] w-[40%] text-white cursor-pointer items-center justify-center rounded-2xl border-3 border-white text-3xl font-bold transition-colors duration-200 hover:bg-white hover:text-gray-700/50"
             >
               Ver
             </a>
@@ -54,7 +54,7 @@ const ProjectCard = () => {
             <h1 className="font-[AvenirRoman] text-[3vh] font-semibold">
               {project.title}
             </h1>
-            <label className="text-[2.5vh] text-orange-500">
+            <label className="text-[2.5vh] text-[#FF6900] transition-colors duration-200 dark:text-orange-500">
               {project.category}
             </label>
           </div>
@@ -76,7 +76,7 @@ const ProjectCard = () => {
           <a
             href={project.links.deploy}
             target="_blank"
-            className="flex w-[70%] cursor-pointer items-center justify-center rounded-2xl bg-orange-600 text-[2.6vh] font-bold transition-colors duration-200 hover:bg-orange-700"
+            className="flex w-[70%] cursor-pointer items-center justify-center rounded-2xl bg-[#FF6900] text-white text-[2.6vh] font-bold transition-colors duration-200 hover:bg-orange-700 dark:bg-orange-600"
           >
             Ver projeto
           </a>

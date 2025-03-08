@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @font-face {
     font-family: 'AvenirRoman';
     src: local('Avenir Roman'), local('Avenir-Roman'),
@@ -31,16 +33,16 @@ html, body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #170920;
+  background: #ffc69d;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #451883;
+  background: #FF6900;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #430896;
+  background: #ff842c;
 }
 .scrollbar-hide::-webkit-scrollbar {
   display: none;

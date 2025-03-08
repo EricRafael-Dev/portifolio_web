@@ -25,10 +25,10 @@ const Projects = () => {
       id="projects"
       className="flex h-screen w-screen flex-col items-center justify-center gap-15"
     >
-      <div className="relative flex h-[90%] w-full flex-col justify-around gap-10">
+      <div className="relative flex h-[90%] w-full flex-col justify-around gap-10 text-[#444444] transition-colors duration-200 dark:text-white">
         <div
           id="projecttitle"
-          className="p-10 font-[AvenirRoman] text-[7vh] font-extrabold text-white/50 uppercase"
+          className="p-10 font-[AvenirRoman] text-[7vh] font-extrabold text-[#444444]/50 uppercase transition-colors duration-200 dark:text-white/50"
         >
           Projetos
         </div>

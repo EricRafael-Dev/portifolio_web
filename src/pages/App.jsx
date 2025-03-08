@@ -8,7 +8,7 @@ import Experiences from "./Experiences";
 
 const App = () => {
   return (
-    <main className="flex flex-col bg-[#11071f] font-[AvenirLight] text-white">
+    <main className="flex flex-col bg-[#FFFFFF] font-[AvenirLight] text-white transition-colors duration-200 dark:bg-[#11071f]">
       <Presentation />
       <About />
       <Projects />

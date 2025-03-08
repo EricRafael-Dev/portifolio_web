@@ -30,23 +30,20 @@ const Experiences = () => {
   return (
     <section
       id="experiences"
-      className="h-screen w-screen p-10 pt-20"
+      className="h-screen w-screen p-10 py-20 [&_*]:transition-colors [&_*]:duration-200"
     >
       <div className="relative grid max-h-full w-full grid-rows-[auto_1fr] gap-[15vh]">
-
-        <div className="relative font-[AvenirRoman] text-[5vh] font-extrabold text-white/50 uppercase">
-          <div className="absolute top-[9vh] right-0 flex aspect-square h-[9vh] items-center justify-center rounded-2xl bg-[#27163f] text-center shadow-[-5px_5px_30px_0px] shadow-orange-500/40">
-            <i className="bx bx-trip text-orange-500"></i>
+        <div className="relative font-[AvenirRoman] text-[5vh] font-extrabold text-[#444444]/50 uppercase transition-colors duration-200 dark:text-white/50">
+          <div className="absolute top-[9vh] right-0 flex aspect-square h-[9vh] items-center justify-center rounded-2xl bg-[#27163f] text-center shadow-[-5px_5px_30px_0px] shadow-slate-300 dark:shadow-orange-500/40">
+            <i className="bx bx-trip text-slate-300 dark:text-orange-500"></i>
           </div>
           Experiências
         </div>
 
-        <div className="relative flex h-full flex-col overflow-y-hidden text-justify text-2xl">
-          
-          <div className="absolute top-2 left-2 h-full w-0.5 bg-gray-200"></div>
+        <div className="relative flex h-full flex-col overflow-y-hidden text-justify text-2xl text-[#111111] dark:text-white">
+          <div className="absolute top-2 left-2 h-full w-0.5 bg-[#2D2D34] transition-colors duration-200 dark:bg-gray-200"></div>
 
-          <div className="relative h-full space-y-6 overflow-x-hidden overflow-y-scroll px-10 flex flex-col gap-10">
-
+          <div className="relative flex h-full flex-col gap-10 space-y-6 overflow-x-hidden overflow-y-scroll px-10">
             <div className="relative flex flex-col gap-3 before:absolute before:top-7 before:left-[-35px] before:h-[1vh] before:w-[1vh] before:rounded-full before:bg-orange-500 before:shadow-lg before:content-['']">
               <h4 className="text-[3vh] font-semibold">
                 Desenvolvedor Freelancer
@@ -107,11 +104,9 @@ const Experiences = () => {
                 Início da caminhada como auto-didata [Python, JavaScript]
               </p>
             </div>
-
           </div>
         </div>
       </div>
-
     </section>
   );
 };

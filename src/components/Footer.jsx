@@ -15,7 +15,7 @@ const Footer = () => {
         <label className="text-1xl animate-pulse">Deslize para baixo</label>
         <ChevronsDown size={32} />
       </div>
-      <footer className="grid-rows-auto relative z-1 grid gap-6 border-t border-orange-500 bg-[#11071f] p-15 font-[AvenirLight] text-gray-300 shadow-[0_50px_100px_1px] shadow-orange-500 [&_h1]:font-[AvenirRoman] [&_h1]:text-[3vh] [&_h1]:font-semibold [&_h1]:text-white">
+      <footer className="grid-rows-auto transition-colors duration-200 relative bottom-0 z-1 grid gap-6 border-t border-[#2D2D34] bg-slate-100 p-15 font-[AvenirLight] text-[#444444] shadow-[0_50px_100px_1px] shadow-[#2D2D34] dark:border-orange-500 dark:bg-[#11071f] dark:text-gray-300 dark:shadow-orange-500 [&_*]:transition-colors [&_*]:duration-200 [&_h1]:font-[AvenirRoman] [&_h1]:text-[3vh] [&_h1]:font-semibold [&_h1]:text-[#111111] dark:[&_h1]:text-white">
         {/* Me */}
         <div className="flex flex-col gap-5">
           <h1 className="">Eric Rafael P. de Andrade</h1>

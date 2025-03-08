@@ -51,10 +51,10 @@ const About = () => {
       id="aboutme"
       className="flex h-screen w-screen flex-col items-center justify-center gap-15 p-10"
     >
-      <div className="relative flex h-full w-full flex-col justify-evenly">
+      <div className="relative flex h-full w-full flex-col justify-evenly text-[#444444] dark:text-white">
         <div
           id="abouttitle"
-          className="pointer-events-none text-end font-[AvenirRoman] text-[7vh] font-extrabold text-white/50 uppercase"
+          className="pointer-events-none text-end font-[AvenirRoman] text-[7vh] font-extrabold text-[#444444]/50 uppercase dark:text-white/50"
         >
           Sobre mim
         </div>

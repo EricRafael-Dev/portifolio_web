@@ -74,14 +74,14 @@ const Skills = () => {
       <div className="relative flex h-full w-full flex-col justify-between gap-10">
         <div className="flex flex-col text-[6vh]">
           <i className="bx bx-code text-start text-orange-500/50"></i>
-          <div className="text-center font-[AvenirRoman] text-[6vh] font-extrabold text-white/50 uppercase">
+          <div className="text-center font-[AvenirRoman] text-[6vh] font-extrabold text-[#444444]/50 uppercase transition-colors duration-200 dark:text-white/50">
             Skills Técnicas
           </div>
           <i className="bx bx-code-alt text-end text-orange-500/50"></i>
         </div>
 
         {/* Content */}
-        <div className="[&_i]:text-[4vh] relative z-1 grid h-full grid-cols-2 gap-5 text-[2.5vh]  [&_a]:flex [&_a]:h-[6dvh] [&_a]:w-full [&_a]:items-center [&_a]:justify-evenly [&_a]:rounded-xl [&_a]:bg-[#27163f] [&_a]:transition-colors [&_a]:duration-200 [&_a]:hover:bg-orange-500 [&_a]:hover:text-[#27163f] [&_a]:hover:[&_i]:text-[#27163f] [&_label]:cursor-pointer">
+        <div className="relative z-1 grid h-full grid-cols-2 gap-5 text-[2.5vh] [&_a]:flex [&_a]:h-[6dvh] [&_a]:w-full [&_a]:items-center [&_a]:justify-evenly [&_a]:rounded-xl [&_a]:bg-[#2D2D34] [&_a]:transition-colors [&_a]:duration-200 [&_a]:hover:bg-slate-300 [&_a]:hover:text-[#2D2D34] dark:[&_a]:bg-[#27163f] dark:[&_a]:hover:bg-orange-500 dark:[&_a]:hover:text-[#27163f] [&_i]:text-[4vh] [&_a]:hover:[&_i]:text-[#2D2D34] dark:[&_a]:hover:[&_i]:text-[#27163f] [&_label]:cursor-pointer">
           <a id="skill" href="https://react.dev/" target="_blank">
             <i className="bx bxl-react text-blue-500"></i>
             <label>React</label>
@@ -109,13 +109,15 @@ const Skills = () => {
         </div>
 
         <div className="my-10 flex items-center gap-5 text-[3vh]">
-          <div className="flex aspect-square w-[6vh] items-center justify-center rounded-xl bg-[#27163f]">
-            <i className="bx bx-wrench text-orange-500"></i>
+          <div className="flex aspect-square w-[6vh] items-center justify-center rounded-xl bg-[#2D2D34] dark:bg-[#27163f]">
+            <i className="bx bx-wrench text-slate-300 dark:text-orange-500"></i>
           </div>
-          <h2 className="text-white/50">Ferramentas</h2>
+          <h2 className="text-[#444444] transition-colors duration-200 dark:text-white/50">
+            Ferramentas
+          </h2>
         </div>
 
-        <div className="grid h-[30dvh] grid-cols-2 gap-5 text-[2.5vh] [&_a]:flex [&_a]:h-[6dvh] [&_a]:w-full [&_a]:items-center [&_a]:justify-evenly [&_a]:rounded-xl [&_a]:bg-[#27163f] [&_a]:transition-colors [&_a]:duration-200 [&_a]:hover:bg-orange-500 [&_a]:hover:text-[#27163f] [&_a]:hover:[&_i]:text-[#27163f] [&_label]:cursor-pointer">
+        <div className="grid h-[30dvh] grid-cols-2 gap-5 text-[2.5vh] [&_a]:flex [&_a]:h-[6dvh] [&_a]:w-full [&_a]:items-center [&_a]:justify-evenly [&_a]:rounded-xl [&_a]:bg-[#2D2D34] [&_a]:transition-colors [&_a]:duration-200 [&_a]:hover:bg-slate-300 [&_a]:hover:text-[#2D2D34] dark:[&_a]:bg-[#27163f] dark:[&_a]:hover:bg-orange-500 dark:[&_a]:hover:text-[#27163f] [&_a]:hover:[&_i]:text-[#2D2D34] dark:[&_a]:hover:[&_i]:text-[#27163f] [&_label]:cursor-pointer">
           <a id="tools" href="https://github.com/" target="_blank">
             <i className="bx bxl-github text-blue-500"></i>
             <label>GitHub</label>

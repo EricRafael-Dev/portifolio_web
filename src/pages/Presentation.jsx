@@ -47,17 +47,20 @@ const Presentation = () => {
       </div>
 
       <div>
-        <h1 id="name" className="font-[AvenirRoman] text-[5vh] font-bold">
+        <h1
+          id="name"
+          className="font-[AvenirRoman] text-[5vh] font-bold text-[#444444] dark:text-white"
+        >
           Eric Rafael
         </h1>
       </div>
 
-      <div className="flex flex-col items-center gap-6">
+      <div className="flex flex-col items-center gap-6 text-[#444444] dark:text-white">
         <h2 id="name2" className="text-[4vh]">
           Full Stack Developer
         </h2>
 
-        <div className=" flex flex-wrap justify-center gap-5 text-[2vh]">
+        <div className="flex flex-wrap justify-center gap-5 text-[2vh]">
           <div
             id="feature"
             className="flex items-center gap-2 rounded-full bg-gray-200/90 px-4 py-1 text-gray-700"
@@ -68,7 +71,7 @@ const Presentation = () => {
 
           <div
             id="feature"
-            className="py-1 flex items-center gap-2 rounded-full bg-gray-200/90 px-4 text-gray-700"
+            className="flex items-center gap-2 rounded-full bg-gray-200/90 px-4 py-1 text-gray-700"
           >
             <i className="bx bxl-nodejs text-green-700"></i>
             <label className="">NodeJS</label>

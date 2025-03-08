@@ -1,6 +1,16 @@
 {
   "projects": [
     {
+      "title": "Track It",
+      "category": "Web App & Login",
+      "image": "/trackit.png",
+      "description": "Uma aplicação interativa com Login para cadastrar e registrar hábitos. Possui funcionalidades como Registrar, Login, Adicionar hábitos e Histórico.",
+      "links": {
+        "github": "https://github.com/EricRafael-Dev/TrackIt",
+        "deploy": "https://track-it-xi-six.vercel.app"
+      }
+    },
+    {
       "title": "Página de vendas",
       "category": "Landing-Page",
       "image": "/gym_landing_page.png",
