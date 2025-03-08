@@ -12,7 +12,6 @@ export default function ThemecontextProvider({ children }) {
     root.classList.remove("light", "dark");
     root.classList.add(theme);
     localStorage.setItem("theme", theme)
-    console.log("att")
   }, [theme]);
   
   return (

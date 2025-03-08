@@ -7,7 +7,13 @@ gsap.registerPlugin(useGSAP);
 
 const Header = () => {
   useGSAP(() => {
-    gsap.from("header", { y: -200, duration: 1, delay: 1, ease: "power1.out" });
+    gsap.from("header", {
+      y: -200,
+      duration: 1,
+      delay: 1,
+      ease: "power1.out",
+      
+    });
   });
 
   const {theme, setTheme} = useTheme();

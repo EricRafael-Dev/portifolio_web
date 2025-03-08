@@ -25,7 +25,15 @@
 
 html, body {
   overflow-x: hidden;
+  background-color: #FFFFFF;
+}
+
+html.dark{
   background-color: #11071f;
+  body{
+
+    background-color: #11071f;
+  }
 }
 
 ::-webkit-scrollbar {
